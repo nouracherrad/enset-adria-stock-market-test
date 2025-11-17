@@ -1,0 +1,44 @@
+<div class="container mt-3">
+  <h2>Gestion des cotations</h2>
+
+  <!-- Formulaire Ajouter Stock -->
+  <div class="card p-3 mb-3">
+    <h4>Ajouter une cotation</h4>
+    <form (ngSubmit)="addStock()">
+      <input [(ngModel)]="newStock.date" name="date" type="date" class="form-control mb-2" required>
+      <input [(ngModel)]="newStock.openValue" name="openValue" type="number" placeholder="Open Value" class="form-control mb-2" required>
+      <input [(ngModel)]="newStock.closeValue" name="closeValue" type="number" placeholder="Close Value" class="form-control mb-2" required>
+      <input [(ngModel)]="newStock.volume" name="volume" type="number" placeholder="Volume" class="form-control mb-2" required>
+      <input [(ngModel)]="newStock.companyId" name="companyId" type="number" placeholder="Company ID" class="form-control mb-2" required>
+      <button type="submit" class="btn btn-success">Ajouter</button>
+    </form>
+  </div>
+
+  <!-- Liste des Stocks -->
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Date</th>
+      <th>Open</th>
+      <th>Close</th>
+      <th>Volume</th>
+      <th>Company ID</th>
+      <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let stock of stocks">
+      <td>{{stock.id}}</td>
+      <td>{{stock.date}}</td>
+      <td>{{stock.openValue}}</td>
+      <td>{{stock.closeValue}}</td>
+      <td>{{stock.volume}}</td>
+      <td>{{stock.companyId}}</td>
+      <td>
+        <button class="btn btn-danger btn-sm" (click)="deleteStock(stock.id)">Supprimer</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
