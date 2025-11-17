@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/Stock-Service/src/main/java/org/sdia/stockservice/controller/StockMarketController.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/dto/CreateStockDto.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/dto/StockMarketDto.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/entities/StockMarket.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/repository/StockMarketRepository.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/service/StockMarketService.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/service/StockMarketServiceImpl.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/main/java/org/sdia/stockservice/StockServiceApplication.java;C:/Users/PC/IdeaProjects/enset-adria-stock-market-test/Stock-Service/src/test/java/org/sdia/stockservice/StockServiceApplicationTests.java" />
+  </component>
+</project>
